@@ -27,18 +27,32 @@
         <animate xlink:href="#poly" attributeName="points" from="365,110, 350,45, 400,10, 450,45, 435,110"
             to="435,110,365,110, 350,45, 400,10, 450,45 " begin="click" dur="1s" repeatCount="indefinite" />
     </svg>
-<hr>
+    <hr>
     <h2>2. Criar um polígono SVG semelhante ao exemplo.</h2>
     <svg width="250" height="220">
         <polygon points="39,163,145,163,119,115,167,142,166,34,119,61,145,12,39,12,66,61,17,34,17,141,65,115" fill="red"
             stroke="none" id="poly" />
     </svg>
     <hr>
-    <h2>3. (Desafio) Fazer a imagem de carregamento como no exemplo e com animação fazer com que fique girando continuamente.</h2>
+    <h2>3. (Desafio) Fazer a imagem de carregamento como no exemplo e com animação fazer com que fique girando
+        continuamente.</h2>
     <svg width="1200" height="300">
-        <circle cx="100" cy="60" r="30" fill="black" stroke="none" />
-
-        <circle cx="100" cy="60" r="30" fill="black" stroke="none" />
+        <g transform="rotate(0 269 66)">
+        <circle cx="310" cy="55" r="10" fill="#000000" stroke="none" id="c1" />
+        <circle cx="299" cy="35" r="10" fill="#404143" stroke="none" id="c2" />
+        <circle cx="280" cy="24" r="10" fill="#505153" stroke="none" id="c3" />
+        <circle cx="258" cy="24" r="10" fill="#606163" stroke="none" id="c4" />
+        <circle cx="239" cy="35" r="10" fill="#707173" stroke="none" id="c5" />
+        <circle cx="228" cy="54" r="10" fill="#808183" stroke="none" id="c6" />
+        <circle cx="228" cy="77" r="10" fill="#909193" stroke="none" id="c7" />
+        <circle cx="239" cy="96" r="10" fill="#A0A1A3" stroke="none" id="c8" />
+        <circle cx="258" cy="108" r="10" fill="#B0B1B3" stroke="none" id="c9" />
+        <circle cx="280" cy="108" r="10" fill="#C0C1C3" stroke="none" id="c10" />
+        <circle cx="299" cy="97" r="10" fill="#D0D1D3" stroke="none" id="c11" />
+        <circle cx="299" cy="97" r="10" fill="#E0E1E3" stroke="none" id="c12" />
+        <animateTransform attributeName="transform" type="rotate" from="0 269 66" to="360 269 66" begin="0.1" repeatCount="indefinite" dur="1.5s">
+        </g>           
     </svg>
 </body>
+
 </html>

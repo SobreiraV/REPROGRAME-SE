@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    margin: 0 auto;
+    padding: 2rem;
+    width: 800px;
+}
+
+.mb-10 {
+    margin-bottom: 1rem;
+}
+
+.mb-15 {
+    margin-bottom: 1.5rem;
+}
+
+.mb-20 {
+    margin-bottom: 2rem;
+}
+
+.mb-25 {
+    margin-bottom: 2.5rem;
+}
+
+.mb-30 {
+    margin-bottom: 3rem;
+}
+
+.mt-10 {
+    margin-top: 1rem;
+}
+
+.mt-15 {
+    margin-top: 1.5rem;
+}
+
+.mt-20 {
+    margin-top: 2rem;
+}
+
+.mt-25 {
+    margin-top: 2.5rem;
+}
+
+.mt-30 {
+    margin-top: 3rem;
+}
+
+.mx-10 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.mx-15 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.mx-20 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.ta-center {
+    text-align: center;
+}
+
+.ta-left {
+    text-align: left;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-sobre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 6rem;
+    grid-template-areas: "texto foto";
+}
+
+.div-sobre-foto {
+    grid-area: foto;
+}
+
+.div-sobre-texto {
+    grid-area: texto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sec-sobre-itens {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 1.5rem;
+}
+
+.sec-projetos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 1.5rem;
+    grid-template-areas:
+        "titulo titulo"
+        "projeto1 projeto2";
+}
+
+.sec-projetos h2 {
+    grid-area: titulo;
+}
+
+.sec-projetos>div:nth-child(2) {
+    grid-area: projeto1;
+}
+
+.sec-projetos>div:nth-child(3) {
+    grid-area: projeto2;
+}
+
+div.item-projeto>img {
+    width: 100%;
+}
+
+.div-itens-expectativa {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+.sec-precos>div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4rem;
+}
+
+.sec-precos input,
+.sec-precos textarea {
+    width: 100%;
+}
+
+@media screen and (min-width: 1280px) {
+    .conteiner {
+        width: 1280px;
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .conteiner {
+        width: 100%;
+        padding: 1rem;
+        margin: 1rem auto;
+    }
+
+    .sec-sobre,
+    .sec-sobre-itens,
+    .sec-projetos,
+    .div-itens-expectativa,
+    .sec-precos>div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-sobre-foto img {
+        width: 80%;
+    }
+
+    .div-sobre-foto {
+        text-align: center;
+    }
+}

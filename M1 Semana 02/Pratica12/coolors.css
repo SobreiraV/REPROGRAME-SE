@@ -1,0 +1,40 @@
+:root {
+        --smoky-black: #14110fff;
+        --jet: #34312dff;
+        --gray-web: #7e7f83ff;
+        --desert-sand: #d9c5b2ff;
+        --cultured: #f3f3f4ff;
+}
+
+body {
+    background-color: var(--smoky-black);
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--desert-sand)
+}
+
+p {
+    color: var(--cultured);
+}
+
+a {
+    color: var(--gray-web);
+    text-decoration: none;
+}
+
+header, footer {
+    background-color: var(--jet);
+    padding: 10px;
+    text-align: center;
+    border-top: 2px dashed var(--gray-web);
+    border-bottom: 2px dashed var(--gray-web);
+}
+
+main {
+    padding: 10px;
+}

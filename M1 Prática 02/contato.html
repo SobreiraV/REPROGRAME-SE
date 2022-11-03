@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans&display=swap" rel="stylesheet">
+    <title> Contato - Atividade Pratica Semana 02</title>
+</head>
+
+<body>
+    <header>
+        <table>
+            <tr>
+                <td rowspan="2" class="tdfotoperfil"><img src="img/fotoperfil.png" class="fotoperfil"> </td>
+                <td class="tdname">
+                    <h1>Vinícius Sobreira Freire</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>&lt;Designer e Desenvolvedor Web&gt;</p>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <main class="contato">
+        <table>
+            <tr>
+                <td colspan="2" class="tdmnav">
+                    <ul class="mnav">
+                        <li><a href="index.html"> Principal</a></li>
+                        <li><a href="quemsou.html">Quem Sou</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="contato.html" id="pativa">Contato</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <table class="titulocontato">
+            <tr>
+                <td>
+                    <h1>Entre em contato!</h1>
+                    <p>Preencha todos os campos do formulário a seguir e em até 48h lhe responderei. Será um prazer lhe atender!</p>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <form class="fcontato">
+                        <label for="slctAssunto">Assunto</label><br>
+                        <select name="Assunto" id="slctAssunto" list="assuntos" value="Selecione o assunto">
+                        <datalist id="assuntos">
+                            <option value="dft" disabled selected>Selecione um assunto</option>
+                            <option value="orc">Orçamento</option>
+                            <option value="man">Manutenção</option>
+                            <option value="rev">Revisão</option>
+                            <option value="pro">Proposta</option>
+                            <option value="duv">Dúvidas</option>
+                            </datalist>
+                            </select>
+
+                        <label for="formnomecompleto">Nome</label>
+                        <input type="text" name="nomecompleto" id="formnomecompleto" placeholder="Nome completo" required class="forminput">
+                        
+                        <label for="formemail">E-mail</label>
+                        <input type="email" name="email" id="formemail" placeholder="email@dominio.com.br" required class="forminput">
+
+                        <label for="formtelefone">Telefone</label>
+                        <input type="tel" name="telefone" id="formtelefone" required class="forminput" placeholder="(28) 99999-9999">
+
+                        <label for="formmensagem">Mensagem</label>
+                        <textarea name="observacao" id="formobservacao" cols="30" rows="10"                       class="forminput"></textarea>
+
+                        <input type="submit" value="Enviar" id="botaoenviar">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <hr>
+                    <ul class="lcontato">
+                        <li><h2>Outras formas de contato:</h2></li>
+                        <li>Residente em Iúna/ES</li>
+                        <li><a href="mailto:contato@mail.com">contato@mail.com</a></li>
+                        <li>(28) 99999-9999</li>
+                        <li><a href="https://www.linkedin.com/in/viniciussobreira/">LinkedIn</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <table class="tfooter">
+            <tr>
+                <td>
+                    <p>Copyright &#169; 2022</p>
+                    <img src="img/ifes.png" class="ifeslogo">
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+
+</html>

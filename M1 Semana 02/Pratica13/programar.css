@@ -1,0 +1,47 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: rgb(77, 77, 77);
+    height: 75px;
+}
+
+header h1 {
+    padding: 15px;
+    font-variant: small-caps;
+    color: rgb(238, 227, 216);
+}
+
+p {
+    color: gray;
+}
+
+p em {
+    color: rgb(162, 202, 87);
+}
+
+blockquote {
+    margin-left: 0;
+    border-left: 4px solid rgb(83, 177, 153);
+    padding: 15px 0 15px 25px;
+    color: gray;
+}
+
+li {
+    list-style-type: none;
+    list-style-image: url(../img/checked.png);
+    color: gray;
+}
+
+footer {
+    background-color: rgb(77, 77, 77);
+    height: 75px;
+    padding-top: 10px;
+}
+
+footer p {
+    text-align: center;
+    margin: 7px;
+    color: rgb(238, 227, 216);
+}

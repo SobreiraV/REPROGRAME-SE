@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos.css">
+    <link rel="stylesheet" href="p10.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Pratica Sugerida 10</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">Reprograme(se) :: F1M1 :: HTML5 e CSS3</h1>
+        <nav>
+            <ul class="navegacao">
+                <li><a href="../index.html">Index</a></li>
+                <li><a href="../Pratica09/pratica09.html">Atividade Anterior</a></li>
+                <li><a href="../Pratica11/pratica11.html">Próxima Atividade</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Atividade Sugerida 10</h2>
+            <p><strong>1º Objetivo:</strong> Fazer o código HTML do formulário com os 10 tipos de campo, considerando
+                que ele deve ser enviado para o endereço
+                “/cliente/cadastrar”.</p>
+            <hr>
+            <h2>Resolução:</h2>
+            <h3 class="formtitulo">Cadastro de Cliente</h3>
+            <hr>
+            <form method="POST" action="/cliente/cadastrar">
+                <label for="formnomecompleto">Nome</label>
+                <input type="text" name="nomecompleto" id="formnomecompleto" placeholder="Nome completo" required class="forminput">
+                
+                <label for="formemail">E-mail</label>
+                <input type="email" name="email" id="formemail" placeholder="email@dominio.com.br" required class="forminput">
+
+                <label for="formportofilo">URL Portfolio Online</label>
+                <input type="url" name="urlportfolio" id="formportfolio" placeholder="www.suapagina.com.br" class="forminput">
+                      
+                <label for="formdatadenascimento">Data de Nascimento</label>
+                <input type="date" name="datadenascimento" min="1960-12-01" id="formdatadenascimento" required
+                    class="forminput">
+
+                <label for="formqtdedependentes">Qtde Dependentes</label>
+                <input type="number" name="qtdedependentes" id="formqtdedependentes" required class="forminput">
+
+                <label for="formcorpreferida">Cor Preferida</label>
+                <input type="color" name="corpreferida" id="formcorpreferida" required class="forminput">
+
+                <label for="formtelefone">Telefone</label>
+                <input type="tel" name="telefone" id="formtelefone" required class="forminput" placeholder="(xx) xxxxx-xxxx">
+
+                <input type="checkbox" name="promocao" id="formpromocao" required class="formcheckbox">
+                <label class="formcheckbox" for="formpromocao">Receber Promoções</label>
+
+                <label for="forestadouf">Estado</label>
+                <input type="text" name="estadouf" id="formestadouf" required class="forminput" list="unidadesfederativas" placeholder="Selecione...">
+                <datalist id="unidadesfederativas">
+                    <option value="AC - Acre">
+                    <option value="AL - Alagoas">
+                    <option value="AP - Amapá">
+                    <option value="AM - Amazonas">
+                    <option value="BA - Bahia">
+                    <option value="CE - Ceara">
+                    <option value="DF - Distrito Federal">
+                    <option value="ES - Espírito Santo">
+                    <option value="GO - Goiás">
+                    <option value="MA - Maranhão">
+                    <option value="MT - Mato Grosso">
+                    <option value="MS - Mato Grosso do Sul">
+                    <option value="MG - Minas Gerais">
+                    <option value="PA - Pará">
+                    <option value="PB - Paraíba">
+                    <option value="PR - Paraná">
+                    <option value="PE - Pernambuco">
+                    <option value="PI - Piauí">
+                    <option value="RJ - Rio de Janeiro">
+                    <option value="RN - Rio Grande do Norte">
+                    <option value="RS - Rio Grande do Sul">
+                    <option value="RO - Rondônia">
+                    <option value="RR - Roraima">
+                    <option value="SC - Santa Catarina">
+                    <option value="SP - São Paulo">
+                    <option value="SE - Sergipe">
+                    <option value="TO - Tocantins">
+                </datalist>
+            
+                <label for="formbiografia">Mini-Biografia</label>
+                <textarea name="biografia" id="formbiografia" cols="30" rows="10" class="forminput"></textarea>
+            
+                <input type="submit" value="Enviar" class="botaoenviar">
+            </form>
+        </section>
+        <footer>
+            <!--Utilizei table para improvisar mantendo dentro do conteúdo das aulas-->
+            <table class="tabelafooter">
+                <tr>
+                    <th scope="col">Venda Nova do Imigrante &#128640;</th>
+                    <th scope="col">Realização &#128640</th>
+                </tr>
+                <tr>
+                    <td><a href="https://reprograme-se.org.br/"><img class="logoreprogramese"
+                                src="../img/reprogramese.png"
+                                alt="Reprogramese - Capacitação em Programação de Sofware" /></a></td>
+                    <td><a href="https://www.ifes.edu.br/"><img class="logoifes" src="../img/logo_ifes.png"
+                                alt="Instituto Federal do Espírito Santo - IFES" /></a><a
+                            href="https://action.org.es/"><img class="logoaction" src="../img/logo_action.png"
+                                alt="Act!on - Associação Capixaba de Tecnologia" /></a></td>
+                </tr>
+            </table>
+        </footer>
+</body>
+
+</html>

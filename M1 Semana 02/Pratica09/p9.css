@@ -1,0 +1,44 @@
+form {
+    margin-left: 50px;
+}
+
+.formservico label, .formservico legend {
+    display: block;
+    font-size: 20px;
+}
+
+.forminput {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+fieldset {
+    border: none;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+fieldset input {
+    margin-left: 15px;
+}
+
+.botaoenviar {
+    width: 30%;
+    padding: 15px;
+    background: lightgreen;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botaoenviar:hover {
+    background: rgb(11, 61, 11);
+    color: white;
+}
+
+.botaoenviar:active {
+    transform: scale(1.1);
+}

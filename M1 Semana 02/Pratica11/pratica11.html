@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Pratica Sugerida 11</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">Reprograme(se) :: F1M1 :: HTML5 e CSS3</h1>
+        <nav>
+            <ul class="navegacao">
+                <li><a href="../index.html">Index</a></li>
+                <li><a href="../Pratica10/pratica10.html">Atividade Anterior</a></li>
+                <li><a href="../Pratica12/pratica12.html">Próxima Atividade</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Atividade Sugerida 11</h2>
+            <p><strong>1º Objetivo:</strong> Explorar o site de três bibliotecas CSS para conhecê-las e, ao fim, criar
+                um
+                documento HTML simples
+                para vincular cada uma dessas bibliotecas de forma absoluta usando um repositório CDN. Basta digitar o
+                nome da
+                biblioteca seguido por “CDN” no Google para obter o link para a biblioteca em algum CDN. Ao fim dessa
+                prática,
+                ter 3
+                arquivos HTML, sendo que, cada arquivo HTML deve fazer referência a uma das 3 bibliotecas.</p>
+            <ol type="a">
+                <li>Bootstrap (<a href="https://getbootstrap.com">https://getbootstrap.com</a>)</li>
+                <li>Tailwind (<a href="https://tailwindcss.com">https://tailwindcss.com</a>)</li>
+                <li>Foundation (<a href="https://get.foundation">https://get.foundation</a>)</li>
+            </ol>
+            <hr>
+            <h2>Resolução:</h2>
+            <ol>
+                <li><a href="./bootstrap.html">Página com Bootstrap</a></li>
+                <li><a href="./tailwindcss.html">Página com Tailwind</a></li>
+                <li><a href="./foundation.html">Página com Foundation</a></li>
+            </ol>
+        </section>
+        <hr>
+        <section>
+            <p><strong>2º Objetivo:</strong>Crie um seletor CSS para cada uma das abrangências a seguir.</p>
+            <hr>
+            <h2>Resolução:</h2>
+            <ol>
+                <li>Elementos do tipo H1;</li>
+                <pre>
+                    <code>
+                    h1 {
+
+                    }
+                    </code>
+                </pre>
+                <li>Elementos da classe “destacado”;</li>
+                <pre>
+                    <code>                        
+                    .destacado {
+
+                    }
+                    </code>
+                </pre>
+
+                <li>Elementos com ID igual a “txtNome”;</li>
+                <pre>
+                    <code>                       
+                    #txtNome {
+
+                    }
+                    </code>
+                </pre>
+
+                <li>Elementos dos tipos P e H2 e da classe “textoSimples”;</li>
+                <pre>
+                    <code>                        
+                    P, h2, .textoSimples {
+
+                    }
+                    </code>
+                </pre>
+
+                <li>Todos os elementos de uma página HTML;</li>
+                <pre>
+                    <code>                        
+                    * {
+                        
+                    }
+                    </code>
+                </pre>
+
+                <li>Elementos do tipo I que sejam descendentes de um elemento do tipo P;</li>
+                <pre>
+                    <code>                        
+                    p i {
+
+                    }
+                    </code>
+                </pre>
+
+                <li>Elementos do tipo STRONG que sejam filhos de um elemento do tipo P.</li>
+                <pre>
+                    <code>                        
+                    p > strong {
+
+                    }
+                    </code>
+                </pre>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <!--Utilizei table para improvisar mantendo dentro do conteúdo das aulas-->
+        <table class="tabelafooter">
+            <tr>
+                <th scope="col">Venda Nova do Imigrante &#128640;</th>
+                <th scope="col">Realização &#128640</th>
+            </tr>
+            <tr>
+                <td><a href="https://reprograme-se.org.br/"><img class="logoreprogramese" src="../img/reprogramese.png"
+                            alt="Reprogramese - Capacitação em Programação de Sofware" /></a></td>
+                <td><a href="https://www.ifes.edu.br/"><img class="logoifes" src="../img/logo_ifes.png"
+                            alt="Instituto Federal do Espírito Santo - IFES" /></a><a href="https://action.org.es/"><img
+                            class="logoaction" src="../img/logo_action.png"
+                            alt="Act!on - Associação Capixaba de Tecnologia" /></a></td>
+            </tr>
+        </table>
+    </footer>
+</body>
+
+</html>

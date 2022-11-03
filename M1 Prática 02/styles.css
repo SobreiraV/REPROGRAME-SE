@@ -1,0 +1,288 @@
+:root {
+    --cursiva: 'Caveat', cursive;
+    --semserifa: 'Open Sans', sans-serif;
+    --serifada: 'Courier New', serif;
+} 
+
+header {
+    height: 105px;
+    background-image: linear-gradient(black, green);
+    max-width: 1280px;
+    padding: 20px 0;
+}
+
+header table {
+    max-width: 1280px;
+    width: 80%;
+    border-collapse: collapse;
+    white-space: nowrap;
+    color: white;
+    margin: 0 10% 0 10%;
+}
+
+td {
+    margin: 0;
+    padding: 0;
+}
+
+.tdfotoperfil {
+    width: 1%;
+}
+
+.fotoperfil {
+    border-radius: 50px;
+    width: 100px;
+}
+
+header h1 {
+    padding: 15px 0 0 15px;
+    margin: 0;
+    font-family: var(--semserifa);
+}
+
+header p {
+    margin: 0;
+    padding: 0 0 0 15px;
+    font-family: var(--serifada);
+
+}
+
+main {
+    max-width: 1280px;
+    background-color: rgb(240 226 187);
+    padding-bottom: 20px;
+}
+
+main table {
+    margin: 0 10% 0 10%;
+    width: 80%;
+}
+
+.mnav {
+    margin-bottom: 30px;
+}
+
+.tdmnav {
+    text-align: center;
+    white-space: nowrap;
+}
+
+.mnav li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 1.5rem;
+    width: 24%;
+}
+
+.mnav a {
+    font-family: var(--cursiva);
+    color: rgb(51 51 51);
+    background-color: rgb(240 226 187);
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.mnav a:hover {
+    background-color: rgb(61 90 150);
+    color: white;
+}
+
+#pativa {
+    background-color: rgb(51 51 51);
+    color: white;
+    padding: 10px 40px;
+}
+
+.herosc {
+    border-spacing: 15px;
+}
+
+.ola {
+    background-color: rgb(51 51 51);
+    border-radius: 20px;
+}
+
+.ola section {
+    margin-left: 20px;
+}
+
+.ola p{
+    font-family: var(--cursiva);
+    color: white;
+}
+
+.ola h1 {
+    font-family: var(--semserifa);
+    color: goldenrod;
+}
+
+.ola h2 {
+    font-family: var(--cursiva);
+    color: lightgrey;
+    font-weight: normal;
+}
+
+.ola input {
+    background-color: rgb(61, 90, 150);
+    color: white;
+    font-weight: bold;
+    font-family: var(--semserifa);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 0 0 10px 0;
+    cursor: pointer;
+}
+
+.fotohs {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.pages {
+    font-family: var(--semserifa);
+}
+
+.pages thead h3 {
+    text-align: left;
+    margin-top: 3rem;
+}
+
+.pages tbody th {
+    padding: 20px 50px 20px 0;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.pages tbody td {
+    padding-right: 100px;
+}
+
+.pages a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+    max-width: 1280px;
+}
+
+.tfooter {
+    width: 100%;
+    text-align: center;
+}
+
+.tfooter p {
+    margin: 20px 0 0 0;
+}
+
+.ifeslogo {
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+/*
+Página Quem Sou ---------------------------
+*/
+
+.mquemsou, .projetos, .contato {
+    font-family: var(--semserifa);
+}
+
+.minibio h1 {
+    margin: 40px 0 0 0;
+    padding: 0;
+}
+
+.minibio p {
+    margin: 0 0 40px 0;
+    padding: 0;
+}
+
+.minibio tbody td {
+    padding: 0 0 20px 0;
+}
+
+progress {
+    height: 30px;
+    width: 80%;
+}
+
+.experiencia h2 {
+    margin: 30px 0 0 0;
+}
+
+.experiencia p {
+    white-space: nowrap;
+}
+
+/*
+Página Projetos ----------------------------
+*/
+
+.tituloprojetos h1, .titulocontato h1 {
+    margin: 30px 0 0 0;
+    padding: 0;
+}
+
+.tituloprojetos p, .titulocontato p {
+    margin: 0 0 30px 0;
+    padding: 0;
+}
+
+.exibeprojetos h2 {
+    margin: 0;
+    padding: 0 0 0 10px;
+    font-size: 1rem;
+}
+
+.exibeprojetos p {
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+
+.exibeprojetos img {
+    width: 100%;
+}
+/*
+Página Contato -----------------------------
+*/
+
+.fcontato legend, .fcontato input, .fcontato textarea, .fcontato select{
+    display: block;
+}
+
+.fcontato select {
+    width: 51%;
+}
+
+.fcontato input, .fcontato textarea {
+    width: 50%;
+}
+
+.fcontato input, .fcontato select {
+    margin-bottom: 15px;
+    border-radius: 8px;
+    height: 25px;
+}
+
+#botaoenviar {
+    margin-top: 20px;
+    width: 10%;
+    height: 40px;
+    padding: 5px 10px;
+    background-color: rgb(61, 90, 150);
+    color: white;
+    border-radius: 8px;
+}
+
+.lcontato {
+    list-style-type: none;
+}
+
+.lcontato h2 {
+    margin-bottom: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}

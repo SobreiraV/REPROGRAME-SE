@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos.css">
+    <link rel="stylesheet" href="p8.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Pratica Sugerida 08</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">Reprograme(se) :: F1M1 :: HTML5 e CSS3</h1>
+        <nav>
+            <ul class="navegacao">
+                <li><a href="../index.html">Index</a></li>
+                <li><a href="../Pratica09/pratica09.html">Próxima Atividade</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Atividade Sugerida 08</h2>
+            <p>Objetivo: Criar uma tabela contendo todos os estados da federação. A tabela deve conter 4 colunas:
+                Região, Sigla,
+                Nome e População e utilizar os elementos semânticos para cabeçalho, corpo e rodapé da tabela</p>
+        </section>
+        <hr>
+        <section>
+            <h2>Resolução:</h2>
+            <table class="tabelademografica">
+                <thead>
+                    <tr>
+                        <th scope="col">Região</th>
+                        <th scope="col">UF</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Habitantes (milhão)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" rowspan="4">Centro Oeste</th>
+                        <td>DF</td>
+                        <td>Distrito Federal</td>
+                        <td>2,9</td>
+                    </tr>
+                    <tr>
+                        <td>GO</td>
+                        <td>Goiás</td>
+                        <td>6,6</td>
+                    </tr>
+                    <tr>
+                        <td>MT</td>
+                        <td>Mato Grosso</td>
+                        <td>3,2</td>
+                    </tr>
+                    <tr>
+                        <td>MS</td>
+                        <td>Mato Grosso do Sul</td>
+                        <td>2,6</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" rowspan="9">Nordeste</th>
+                        <td>AL</td>
+                        <td>Alagoas</td>
+                        <td>3,3</td>
+                    </tr>
+                    <tr>
+                        <td>BA</td>
+                        <td>Bahia</td>
+                        <td>15,2</td>
+                    </tr>
+                    <tr>
+                        <td>CE</td>
+                        <td>Ceará</td>
+                        <td>8,9</td>
+                    </tr>
+                    <tr>
+                        <td>MA</td>
+                        <td>Maranhão</td>
+                        <td>6,9</td>
+                    </tr>
+                    <tr>
+                        <td>PB</td>
+                        <td>Paraíba</td>
+                        <td>3,9</td>
+                    </tr>
+                    <tr>
+                        <td>PE</td>
+                        <td>Pernambuco</td>
+                        <td>9,3</td>
+                    </tr>
+                    <tr>
+                        <td>PI</td>
+                        <td>Piauí</td>
+                        <td>3,2</td>
+                    </tr>
+                    <tr>
+                        <td>RN</td>
+                        <td>Rio Grande do Norte</td>
+                        <td>3,4</td>
+                    </tr>
+                    <tr>
+                        <td>SE</td>
+                        <td>Sergipe</td>
+                        <td>2,2</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" rowspan="7">Norte</th>
+                        <td>AC</td>
+                        <td>Acre</td>
+                        <td>0,8</td>
+                    </tr>
+                    <tr>
+                        <td>AP</td>
+                        <td>Amapá</td>
+                        <td>0,8</td>
+                    </tr>
+                    <tr>
+                        <td>AM</td>
+                        <td>Amazonas</td>
+                        <td>3,9</td>
+                    </tr>
+                    <tr>
+                        <td>PA</td>
+                        <td>Pará</td>
+                        <td>8,1</td>
+                    </tr>
+                    <tr>
+                        <td>RO</td>
+                        <td>Rondônia</td>
+                        <td>1,7</td>
+                    </tr>
+                    <tr>
+                        <td>RR</td>
+                        <td>Roraima</td>
+                        <td>0,5</td>
+                    </tr>
+                    <tr>
+                        <td>TO</td>
+                        <td>Tocantins</td>
+                        <td>1,5</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" rowspan="4">Sudeste</th>
+                        <td>ES</td>
+                        <td>Espírito Santo</td>
+                        <td>3,9</td>
+                    </tr>
+                    <tr>
+                        <td>MG</td>
+                        <td>Minas Gerais</td>
+                        <td>20,8</td>
+                    </tr>
+                    <tr>
+                        <td>RJ</td>
+                        <td>Rio de Janeiro</td>
+                        <td>16,5</td>
+                    </tr>
+                    <tr>
+                        <td>SP</td>
+                        <td>São Paulo</td>
+                        <td>44,3</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" rowspan="3">Sul</th>
+                        <td>PR</td>
+                        <td>Paraná</td>
+                        <td>11,2</td>
+                    </tr>
+                    <tr>
+                        <td>RS</td>
+                        <td>Rio Grande do Sul</td>
+                        <td>11,2</td>
+                    </tr>
+                    <tr>
+                        <td>SC</td>
+                        <td>Santa Catarina</td>
+                        <td>6,8</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th scope="row" colspan="3">População do Brasil</th>
+                        <td>203,6</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+    </main>
+    <footer>
+        <!--Utilizei table para improvisar mantendo dentro do conteúdo das aulas-->
+        <table class="tabelafooter">
+            <tr>
+                <th scope="col">Venda Nova do Imigrante &#128640;</th>
+                <th scope="col">Realização &#128640</th>
+            </tr>
+            <tr>
+                <td><a href="https://reprograme-se.org.br/"><img class="logoreprogramese" src="../img/reprogramese.png"
+                            alt="Reprogramese - Capacitação em Programação de Sofware" /></a></td>
+                <td><a href="https://www.ifes.edu.br/"><img class="logoifes" src="../img/logo_ifes.png"
+                            alt="Instituto Federal do Espírito Santo - IFES" /></a><a href="https://action.org.es/"><img
+                            class="logoaction" src="../img/logo_action.png"
+                            alt="Act!on - Associação Capixaba de Tecnologia" /></a></td>
+            </tr>
+        </table>
+    </footer>
+</body>
+
+</body>
+
+</html>

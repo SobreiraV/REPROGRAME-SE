@@ -1,0 +1,10 @@
+.tabelademografica {
+    width: 700px;
+    margin-left: 10vw;
+}
+
+.tabelademografica, .tabelademografica th, .tabelademografica td {
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}

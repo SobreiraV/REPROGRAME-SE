@@ -1,0 +1,96 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    height: 200px;
+    background: rgb(11, 61, 11);
+}
+
+.titulo {
+    color: rgb(255, 255, 255);
+    padding: 70px 0px 0px 50px;
+    letter-spacing: 2px;
+}
+
+.navegacao {
+    list-style-type: none;
+}
+
+.navegacao li {
+    display: inline-block;
+}
+
+.navegacao a {
+    color: black;
+    text-decoration: none;
+    background-color: lightgreen;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
+.navegacao a:hover {
+    color: blue;
+    padding: 20px 20px;
+}
+
+.navegacao a:active {
+    color: white;
+}
+
+.listadeatividades {
+    list-style-image: url(/img/html_icon.png);
+    margin-left: 50px;
+    line-height: 3em;
+}
+
+.listadeatividades a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.listadeatividades a:hover {
+    text-decoration: underline;
+    font-size: 1.6em;
+}
+
+.listadeatividades a:active {
+    color: rgb(28, 28, 161);
+}
+
+footer {
+    margin-top: 30px;
+    height: 200px;
+    background: darkgray;
+}
+
+.tabelafooter {
+    width: 100%;
+    text-align: center;
+}
+
+.tabelafooter th {
+    font-size: 1.2em;
+}
+
+.tabelafooter td {
+    background: white;
+}
+
+.logoreprogramese {
+    width: 120px;
+}
+
+.logoifes {
+    width: 120px;
+    background: white;
+    padding: 15px 0 15px 0;
+}
+
+.logoaction {
+    width: 120px;
+    background: white;
+    padding: 15px 10px 15px 10px;
+}

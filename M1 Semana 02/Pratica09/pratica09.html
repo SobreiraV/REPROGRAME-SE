@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos.css">
+    <link rel="stylesheet" href="p9.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Pratica Sugerida 09</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">Reprograme(se) :: F1M1 :: HTML5 e CSS3</h1>
+        <nav>
+            <ul class="navegacao">
+                <li><a href="../index.html">Index</a></li>
+                <li><a href="../Pratica08/pratica08.html">Atividade Anterior</a></li>
+                <li><a href="../Pratica10/pratica10.html">Próxima Atividade</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Atividade Sugerida 09</h2>
+            <p><strong>1º Objetivo:</strong> Analisar o formulário de cadastro de usuários de pelo menos 3 sites e
+                identificar quais
+                campos esses formulários possuem
+                para o usuário digitar</p>
+            <hr>
+            <h2>Resolução:</h2>
+            <p><strong>Spotify:</strong> email, confirmação de email, senha, nome de perfil, data de nascimento, gênero,
+                receber mensagens de marketing, compartilhar dados para marketing, concordar com termos e condições,
+                teste de robô, botão enviar.</p>
+            <p><strong>Petz:</strong> Pessoa física ou jurídica, nome e sobrenome, e-mail, celular, telefone, gênero,
+                data de nascimento, cpf, senha, confirmar senha, concordar com termos e condições, botão enviar, se
+                jurídica razão social, nome do contato, cnpj, se isento ie, inscrição estadual, estado da inscrição
+                estadual.</p>
+            <p><strong>Petlove:</strong> E-mail, nome, sobrenome, cpf, celular, senha e botão enviar.</p>
+        </section>
+        <hr>
+        <section>
+            <p><strong>2º Objetivo:</strong> Criar um formulários com um botão que submeta os dados via POST para o
+                endereço “/contato/cotar”. Com os seguintes
+                campos:</p>
+            <ol type="a">
+                <li>Nome do dono (digitação livre de linha única)</li>
+                <li>Tipo de animal (cachorro, coelho, gato ou pássaro)</li>
+                <li>Tipo de serviço (digitação livre de linha única)</li>
+                <li>Observações (digitação livre de múltiplas linhas)</li>
+            </ol>
+            <hr>
+            <h2>Resolução:</h2>
+
+            <form method="POST" action="/contato/cotar">
+                <label for="formnomecompleto">Nome completo:</label>
+                <input type="text" name="nomecompleto" id="formnomecompleto" placeholder="Nome completo" required
+                    class="forminput">
+
+                <fieldset>
+                    <legend>Espécie do animal:</legend>
+                    <input type="radio" name="especie" id="formespeciecachorro" value="cachorro" required>
+                    <label for="formespeciecachorro">🐕Cachorro</label>
+
+                    <input type="radio" name="especie" id="formespeciecoelho" value="coelho">
+                    <label for="formespeciecoelho">🐇Coelho</label>
+
+                    <input type="radio" name="especie" id="formespeciegato" value="gato">
+                    <label for="formespeciegato">🐈Gato</label>
+
+                    <input type="radio" name="especie" id="formespeciepassaro" value="passaro">
+                    <label for="formespeciepassaro">🐦Passaro</label>
+                </fieldset>
+
+                <label for="formservico">Tipo de serviço:</label>
+                <input type="text" name="servico" id="formservico" placeholder="Consulta, Banho, tosa, vacina..."
+                    required class="forminput">
+
+                <label for="formobservacao">Observações:</label>
+                <textarea name="observacao" id="formobservacao" cols="30" rows="10"
+                    placeholder="Por favor, descreva o atendimento e caso seja necessário, especifique cuidados especiais com o animal."
+                    class="forminput"></textarea>
+
+                <input type="submit" value="Enviar" class="botaoenviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <!--Utilizei table para improvisar mantendo dentro do conteúdo das aulas-->
+        <table class="tabelafooter">
+            <tr>
+                <th scope="col">Venda Nova do Imigrante &#128640;</th>
+                <th scope="col">Realização &#128640</th>
+            </tr>
+            <tr>
+                <td><a href="https://reprograme-se.org.br/"><img class="logoreprogramese" src="../img/reprogramese.png"
+                            alt="Reprogramese - Capacitação em Programação de Sofware" /></a></td>
+                <td><a href="https://www.ifes.edu.br/"><img class="logoifes" src="../img/logo_ifes.png"
+                            alt="Instituto Federal do Espírito Santo - IFES" /></a><a href="https://action.org.es/"><img
+                            class="logoaction" src="../img/logo_action.png"
+                            alt="Act!on - Associação Capixaba de Tecnologia" /></a></td>
+            </tr>
+        </table>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js">
+    <style>
+        div.border {
+            height: 150px;
+        }
+    </style>
+    <title>Visibilidade</title>
+</head>
+
+<body>
+    <div class="container bg-info mt-3">
+        <div class="row">
+            <div class="border p-2 col-3 overflow-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem consectetur facilis odit, veniam optio doloribus eos, iure ratione amet perspiciatis, unde laudantium repellat aliquam perferendis cumque accusamus atque omnis ea.</div>
+            <div class="border p-2 col-3 overflow-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum unde voluptatem dolore ipsum obcaecati, cumque at nam. Unde asperiores, magni cum ab quod, qui veritatis ut, officia inventore aperiam cumque!</div>
+            <div class="border p-2 col-3 overflow-visible">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, animi molestiae itaque corrupti, ratione quas reprehenderit sint natus, in asperiores quis ducimus eveniet sequi quod dicta fugit doloribus earum reiciendis.</div>
+            <div class="border p-2 col-3 overflow-scroll">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt delectus quisquam libero in ex, id perspiciatis sequi, dicta quam ab, voluptatum sed porro hic ipsa a amet eum nesciunt optio!</div>
+        </div>
+    </div>
+    <hr>
+    <div class="p-4 col-3 m-3 bg-primary"></div>
+    <div class="p-4 col-3 m-3 bg-success invisible"></div>
+    <div class="p-4 col-3 m-3 bg-warning"></div>
+    <hr>
+    <header class="p-3 text-bg-dark d-pint-none">
+        <div class="container">
+            <h1 class="display-1">Cabeçalho</h1>
+        </div>
+    </header>
+    <article class="container my-3">
+        <h1 class="mb-4">Título do Artigo</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quia porro nostrum nesciunt magni? Ut excepturi cum necessitatibus rem ipsum. Modi dolore voluptate recusandae ad culpa nostrum voluptates mollitia placeat.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, impedit alias esse laboriosam ratione ad, cumque distinctio porro temporibus, quod velit. Recusandae iste itaque tempore esse obcaecati, quia suscipit officia!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint mollitia, reprehenderit labore corporis error alias ullam consequuntur ad. Aliquam ab odit facere tempora. Aut in, architecto repellat tenetur facere illum?</p>
+        <p class="d-none d-print-block">Fonte: meusite.com.br</p>
+    </article>
+    <hr>
+    <div class="p-5 bg-danger"></div>
+    <div class="p-4 col-3 d-none d-lg-block m-3 bg-primary"></div>
+    <div class="p-4 col-3 d-lg-none d-block m-3 bg-success"></div>
+    <div class="p-4 col-3 d-block m-3 bg-warning"></div>
+</body>
+
+</html>

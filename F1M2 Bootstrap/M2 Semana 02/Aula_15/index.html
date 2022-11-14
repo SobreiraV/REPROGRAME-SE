@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js">
+    <title>Formatação de Textos</title>
+</head>
+
+<body>
+    <div class="container">
+        <p class="lh-lg font-monospace text-truncate">
+            <!-- poderia utilizar um botão com javascript para remover essa classe e fazer todo o conteúdo ser exibido -->
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut inventore, illum reprehenderit harum nemo quam
+            ratione voluptatem, corrupti voluptas magnam expedita doloribus excepturi facere omnis? Doloribus nulla
+            blanditiis eaque veritatis!
+            <a href="#" class="text-reset text-decoration-none">Link Qualquer</a>
+        </p>
+    </div>
+
+    <div class="container">
+        <p class="lh-lg font-monospace text-danger text-decoration-underline text-decoration-line-through">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut inventore, illum reprehenderit harum nemo quam
+            ratione voluptatem, corrupti voluptas magnam expedita doloribus excepturi facere omnis? Doloribus nulla
+            blanditiis eaque veritatis!
+            <a href="#" class="text-reset text-decoration-none">Link Qualquer</a>
+        </p>
+    </div>
+
+    <div class="container fs-3">
+        <p class="fw-bold">Texto com peso negrito</p>
+        <p class="fw-semibold">Texto com peso semi-negrito</p>
+        <p class="fw-normal">Texto com peso normal</p>
+        <p class="fw-light">Texto com peso leve</p>
+        <p class="fst-italic">Texto com estilo itálico</p>
+        <p class="fst-normal">Texto com estilo normal</p>
+    </div>
+
+    <div class="container">
+        <p class="text-center text-sm-end fs-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut inventore, illum reprehenderit harum nemo quam
+            ratione voluptatem, corrupti voluptas magnam expedita doloribus excepturi facere omnis? Doloribus nulla
+            blanditiis eaque veritatis!
+        </p>
+        <p class="text-uppercase">
+            Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Aut Inventore, Illum Reprehenderit Harum Nemo Quam
+            Ratione
+            Voluptatem, Corrupti Voluptas Magnam Expedita Doloribus Excepturi Facere Omnis? Doloribus Nulla Blanditiis
+            Eaque
+            Veritatis!
+        </p>
+        <p class="text-break">
+            kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+        </p>
+        <!-- esse texto está provovando rolagem horizontal por ser apenas uma palavra longa, e o navegador não quebra por padrão -->
+
+        <!-- <p class="text-center text-sm-end text-nowrap">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut inventore, illum reprehenderit harum nemo quam ratione
+            voluptatem, corrupti voluptas magnam expedita doloribus excepturi facere omnis? Doloribus nulla blanditiis eaque
+            veritatis!
+        </p> -->
+    </div>
+</body>
+
+</html>

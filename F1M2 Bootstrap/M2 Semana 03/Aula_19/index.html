@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js">
+    <title>Select, Range e Botões</title>
+</head>
+
+<body>
+    <div class="container p-5">
+        <div class="mb-3">
+            <label for="form-label">Opção Desejada</label>
+            <div class="col-4">
+                <select class="form-select" multiple size="6">
+                    <option value="">Opção 1</option>
+                    <option value="">Opção 2</option>
+                    <option value="">Opção 3</option>
+                    <option value="">Opção 4</option>
+                    <option value="">Opção 5</option>
+                    <option value="">Opção 6</option>
+                </select>
+            </div>
+        </div>
+        <hr>
+        <div class="mb-3">
+            <label for="faixa">Etapa</label>
+            <input type="range" id="faixa">
+        </div>
+        <div class="mb-3">
+            <label for="faixa" class="form-label">Etapa</label>
+            <input type="range" class="form-range" id="faixa" min="1" max="5" step="1" value="4">
+        </div>
+        <hr>
+        <a href="#">link</a>
+        <a href="#" class="btn btn-primary">Link 2</a>
+        <a href="#" class="btn btn-outline-primary">Link 3</a>
+        <button class="btn btn-primary" disabled>Botão</button>
+        <hr>
+        <button class="btn btn-primary" data-bs-toggle="button">Botão marcável</button>
+    </div>
+</body>
+
+</html>
